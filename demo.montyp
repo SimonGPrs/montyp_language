@@ -1,0 +1,19 @@
+
+name is "Tom"
+score is 7 plus 5 times 2
+
+say: Hello {name}, your score is {score}
+
+if score is at least 15
+    say: Passed with {score}
+end
+
+repeat 3 times
+    say: Loop {1 plus 1}
+end
+
+def greet who
+    say: Hi {who}!
+end
+
+greet(name)
